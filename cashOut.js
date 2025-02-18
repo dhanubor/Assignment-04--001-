@@ -7,4 +7,3 @@ function cashOut( money ) {
    return cashOutCharg;
 }
 
-console.log(cashOut(-350));
