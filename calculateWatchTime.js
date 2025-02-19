@@ -9,6 +9,6 @@ function  calculateWatchTime( times ) {
     }
  let hour = Math.floor(totalSeconds / 3600);
  let minute = Math.floor((totalSeconds % 3600) / 60);
- let secound = Math.floor(totalSeconds%60);
+ let secound = Math.floor(totalSeconds % 60);
  return {hour, minute, secound}
 }
