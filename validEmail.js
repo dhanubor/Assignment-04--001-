@@ -11,7 +11,7 @@ function  validEmail( email ) {
    if (!emailchick.test(email)) {
     return false
    }
-   return true
+   return true 
 }
 
 
